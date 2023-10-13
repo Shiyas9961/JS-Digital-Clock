@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:wght@500&family=Proza+Libre&family=Rubik&display=swap');
+
+@font-face {
+    font-family: digital-7 ;
+    src: url('digital-7.ttf');
+}
+:root{
+    --light-color:rgb(234,32,39);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #222220;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #c7cac1;
+    gap: 50px;
+    cursor: pointer;
+}
+h2{
+    font-size: 35px;
+}
+.frame{
+    height: 200px;
+    width: 400px;
+    border: 30px solid #243b35;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 120px;
+}
+#clock{
+    text-shadow: 0 0 20px var(--light-color);
+}
+span{
+    font-family: digital-7;
+    font-size: 60px;
+    margin-left: 5px;
+}
